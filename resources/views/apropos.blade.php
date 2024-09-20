@@ -39,15 +39,37 @@
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">A propos</h5>
-                        <h1 class="mb-0">Club des DSI du Niger</h1>
+                        <h5 class="fw-bold text-primary text-uppercase">Qui sommes-nous ?</h5>
+                        <h1 class="mb-0">WAKIYOU</h1>
+                        <h3>Healthcare & technology</h3>
                     </div>
-                    <p class="mb-4">Il est créé au NIGER, une Association dénommée « Club des Directeurs des Systèmes d’Information du Niger», en abrégé « Club DSI NIGER », conformément à l’ordonnance 84-06 du 1er mars 1984 portant régime des associations modifiée et complétée par la loi N° 91-006 du 20 mai 1991.
-                        Cette Association regroupe les Responsables Informatiques (Directeurs des Systèmes d'Information, chefs de division informatique, Chefs Services Informatiques, etc.) des entreprises publiques et privées ou d’organismes internationaux résidant au Niger, qui acceptent les présents statuts et qui s’engagent à apporter leur contribution pour une bonne marche de l’Association.</p>
+                    <p class="mb-4">Wakiyou est une entreprise spécialisée dans le domaine de l'informatique médicale, apportant des solutions innovantes pour améliorer la gestion des données de santé et les flux de travail dans les établissements de soins. L'entreprise se concentre sur la création d'applications logicielles et de systèmes intégrés destinés aux hôpitaux, cliniques, laboratoires et pharmacies, avec pour objectif de simplifier les processus de gestion des patients, des prescriptions, des analyses médicales et des interactions avec les compagnies d'assurance.</p>
+                    <p class="mb-4">En utilisant des technologies modernes, Wakiyou développe des outils qui optimisent la gestion des prescriptions médicales, la gestion des stocks pharmaceutiques, ainsi que l'automatisation des analyses médicales. L'entreprise met également un fort accent sur la protection des données de santé grâce à des systèmes de sécurité renforcés, assurant la confidentialité des informations des patients.</p>
+                    <p class="mb-4">Wakiyou est ainsi positionnée comme un partenaire de choix pour les professionnels de santé cherchant à adopter des solutions technologiques de pointe, permettant une meilleure coordination des soins et une amélioration globale de l'efficacité des opérations dans le secteur médical.</p>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Votre sécurité, notre prioritée</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professionnalisme</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Burkina Faso, Ouagadougou </h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Koulouba</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Contactez-nous</h5>
+                            <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
+                        </div>
+                    </div>
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Plus sur nous</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/about.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -59,14 +81,14 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-uppercase">DSI Niger</h5>
-                <h1 class="mb-0">LES MEMBRES DU BEAUREAU DU CLUB</h1>
+                <h5 class="fw-bold text-uppercase">Membres de l'équipe</h5>
+                <h1 class="mb-0">Voici les vaillants membres de l'équipe</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/teams-1.jpg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/docteur2.jpg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -75,15 +97,15 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="" style="color: #E05206">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class="" style="color: #E05206">Dr. SALIFOU Waliyou</h4>
+                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/teams-2.jpg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/team-2.jpg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -92,15 +114,15 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class=""style="color: #E05206">Col. X</h4>
+                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/teams-3.jpg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/gado2.jpg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -109,10 +131,9 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                            <h4 class=""style="color: #E05206">GADO Djakpo</h4>
+                            <p class="text-uppercase m-0">Ingénieur génielogiciel</p>
                         </div>
-                        <a href="{{route('equipe')}}">Voir l'équipe</a>
                     </div>
                 </div>
             </div>

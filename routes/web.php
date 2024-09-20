@@ -30,7 +30,7 @@ Route::get('/', function () {
 });*/
 Route::get('/', [AccueilController::class, 'index'])->name('index');
 Route::get('apropos/', [AproposController::class, 'index'])->name('apropos');
-Route::get('vision/', [VisionController::class, 'index'])->name('vision');
+Route::get('produits/', [VisionController::class, 'index'])->name('produits');
 Route::get('status/', [StatusController::class, 'index'])->name('status');
 Route::get('reglement/', [ReglementController::class, 'index'])->name('reglement');
 Route::get('contact/', [ContactController::class, 'index'])->name('contact');
