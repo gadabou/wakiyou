@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title', 'Règlement')
+@section('title', "Passez à l'action")
 
 @section('carousel')
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
