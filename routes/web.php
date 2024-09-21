@@ -6,6 +6,7 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CategorieController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProduitController;
 use App\Http\Controllers\ReglementController;
 use App\Http\Controllers\StatusController;
 use App\Http\Controllers\TeamController;
@@ -30,7 +31,9 @@ Route::get('/', function () {
 });*/
 Route::get('/', [AccueilController::class, 'index'])->name('index');
 Route::get('apropos/', [AproposController::class, 'index'])->name('apropos');
-Route::get('produits/', [VisionController::class, 'index'])->name('produits');
+Route::get('produits/', [ProduitController::class, 'index'])->name('produits');
+Route::get('produits/WakiyouMSR', [ProduitController::class, 'wakiyoumrs'])->name('wakiyoumrs');
+Route::get('produits/WakiyouMSR-Demo', [ProduitController::class, 'wakiyoumrs_demo'])->name('wakiyoumrs_demo');
 Route::get('status/', [StatusController::class, 'index'])->name('status');
 Route::get('reglement/', [ReglementController::class, 'index'])->name('reglement');
 Route::get('contact/', [ContactController::class, 'index'])->name('contact');

@@ -14,7 +14,7 @@ class CommentController extends Controller
     {
         // Récupérer tous les commentaires
         $comments = Comment::orderBy('created_at', 'desc')->get();
-        return view('article.detaille', compact('comments'));
+        return view('produit.detaille', compact('comments'));
     }
 
     /**
