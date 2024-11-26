@@ -34,7 +34,7 @@
     <!-- Full Screen Search End -->
 
     <!-- About Start -->
-    <div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
+    <!--div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -66,6 +66,85 @@
                         </div>
                     </div>
                     <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Plus sur nous</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div!-->
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">À propos</h5>
+                        <h1 class="mb-0">Silina Tech</h1>
+                        <h3>Repousser les frontières de l'innovation</h3>
+                    </div>
+                    <p class="mb-4">
+                        Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques. 
+                        Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux 
+                        besoins d’un monde en constante évolution.
+                    </p>
+                    <p class="mb-4">
+                        Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur 
+                        fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité, 
+                        technologie et stratégie pour créer des solutions intelligentes et durables.
+                    </p>
+
+                    <!-- Valeurs fondamentales -->
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3>Nos Valeurs fondamentales</h3>
+                    </div>
+                    <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Innovation</h4>
+                            <p class="mb-3">Toujours à la recherche de nouvelles idées pour dépasser les attentes.</p>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fiabilité</h4>
+                            <p class="mb-3">Offrir des solutions robustes et sécurisées sur lesquelles vous pouvez compter.</p>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Excellence</h4>
+                            <p class="mb-3">Fournir un service et des résultats exceptionnels.</p>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.8s">
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Collaboration</h4>
+                            <p class="mb-3">Construire un avenir numérique ensemble, avec nos clients et partenaires.</p>
+                        </div>
+                    </div>
+
+                    <!-- Pourquoi nous choisir -->
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h3>Pourquoi nous choisir ?</h3>
+                    </div>
+                    <p class="mb-4">
+                        Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et 
+                        concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers 
+                        le succès dans un monde numérique.
+                    </p>
+                    <p class="mb-4">
+                        Avec <strong>Silina Tech</strong>, l’avenir commence aujourd’hui.
+                    </p>
+
+                    <!-- Contact -->
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="1.0s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Contactez-nous</h5>
+                            <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
+                        </div>
+                    </div>
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="1.2s">Plus sur nous</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -132,7 +211,7 @@
                         </div>
                         <div class="text-center py-4">
                             <h4 class=""style="color: #E05206">GADO Djakpo</h4>
-                            <p class="text-uppercase m-0">Ingénieur génielogiciel</p>
+                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
                         </div>
                     </div>
                 </div>

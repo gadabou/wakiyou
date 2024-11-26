@@ -2,42 +2,64 @@
 @section('title', 'Accueil')
 
 @section('carousel')
-    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="w-100" src="{{asset('img/carousel-1.jpg')}}" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">WAKIYOU</h1>
-                        <h3 class="display-1 text-white mb-md-4 animated zoomIn">Soins de santé et technologie</h3>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Nous soutenir</a>
-                        <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contacter</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="w-100" src="{{asset('img/carousel-1.jpg')}}" alt="Image">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Créatif et Innovant Chez WAKIYOU</h5>
-                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Solution numérique créative et innovante</h1>
-                        <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
-                        <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
-                    </div>
+<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <img class="w-100" src="{{asset('img/carousel-1.jpg')}}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 900px;">
+                    <h1 class="display-1 text-white mb-md-4 animated zoomIn">SILINA TECH</h1>
+                    <h3 class="display-4 text-white mb-md-4 animated zoomIn">Façonnons le Monde Numérique de Demain</h3>
+                    <p class="text-white mb-3 animated fadeIn">
+                        <strong>Bienvenue chez Silina Tech, où innovation et technologie redéfinissent les standards. 
+                        Notre expertise repose sur la création de solutions intelligentes qui accompagnent 
+                        les entreprises et institutions à chaque étape de leur transformation numérique.</strong>
+                    </p>
+                    <p class="text-white animated fadeIn">
+                        <strong>Ensemble, nous imaginons et construisons un futur connecté, où l'efficacité, la sécurité 
+                        et la simplicité s'unissent pour répondre aux défis d’un monde en constante évolution.</strong>
+                    </p>
+                    <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Nous soutenir</a>
+                    <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Nous contacter</a>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <img class="w-100" src="{{asset('img/carousel-2.jpg')}}" alt="Image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <div class="p-3" style="max-width: 900px;">
+                    <h1 class="display-1 text-white mb-md-4 animated zoomIn">SILINA TECH</h1>
+                    <h3 class="display-4 text-white mb-md-4 animated zoomIn">Shaping Tomorrow’s Digital World</h3>
+                    <p class="text-white mb-3 animated fadeIn">
+                        <strong>Welcome to Silina Tech, where innovation and technology redefine global standards. 
+                        Our expertise lies in creating intelligent solutions that support businesses and 
+                        institutions at every stage of their digital transformation.</strong>
+                    </p>
+                    <p class="text-white animated fadeIn">
+                        <strong>Together, we imagine and build a connected future where efficiency, security, and simplicity 
+                        converge to meet the challenges of an ever-evolving world.</strong>
+                    </p>
+                    <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
+                    <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Boutons de navigation -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
 @endsection
 
 
@@ -60,49 +82,85 @@
     </div>
     <!-- Full Screen Search End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Qui sommes-nous ?</h5>
-                        <h1 class="mb-0">WAKIYOU</h1>
-                        <h3>Healthcare & technology</h3>
-                    </div>
-                    <p class="mb-4">Wakiyou est une entreprise spécialisée dans le domaine de l'informatique médicale, apportant des solutions innovantes pour améliorer la gestion des données de santé et les flux de travail dans les établissements de soins. L'entreprise se concentre sur la création d'applications logicielles et de systèmes intégrés destinés aux hôpitaux, cliniques, laboratoires et pharmacies, avec pour objectif de simplifier les processus de gestion des patients, des prescriptions, des analyses médicales et des interactions avec les compagnies d'assurance.</p>
-                    <p class="mb-4">En utilisant des technologies modernes, Wakiyou développe des outils qui optimisent la gestion des prescriptions médicales, la gestion des stocks pharmaceutiques, ainsi que l'automatisation des analyses médicales. L'entreprise met également un fort accent sur la protection des données de santé grâce à des systèmes de sécurité renforcés, assurant la confidentialité des informations des patients.</p>
-                    <p class="mb-4">Wakiyou est ainsi positionnée comme un partenaire de choix pour les professionnels de santé cherchant à adopter des solutions technologiques de pointe, permettant une meilleure coordination des soins et une amélioration globale de l'efficacité des opérations dans le secteur médical.</p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Votre sécurité, notre prioritée</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professionnalisme</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Burkina Faso, Ouagadougou </h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Koulouba</h5>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Contactez-nous</h5>
-                            <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
-                        </div>
-                    </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Plus sur nous</a>
+<!-- About Start -->
+<div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">À propos</h5>
+                    <h1 class="mb-0">Silina Tech</h1>
+                    <h3>Repousser les frontières de l'innovation</h3>
                 </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
+                <p class="mb-4">
+                    Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques. 
+                    Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux 
+                    besoins d’un monde en constante évolution.
+                </p>
+                <p class="mb-4">
+                    Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur 
+                    fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité, 
+                    technologie et stratégie pour créer des solutions intelligentes et durables.
+                </p>
+
+                <!-- Valeurs fondamentales -->
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h3>Nos Valeurs fondamentales</h3>
+                </div>
+                <div class="row g-0 mb-3">
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                        <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Innovation</h4>
+                        <p class="mb-3">Toujours à la recherche de nouvelles idées pour dépasser les attentes.</p>
                     </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                        <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fiabilité</h4>
+                        <p class="mb-3">Offrir des solutions robustes et sécurisées sur lesquelles vous pouvez compter.</p>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
+                        <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Excellence</h4>
+                        <p class="mb-3">Fournir un service et des résultats exceptionnels.</p>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.8s">
+                        <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Collaboration</h4>
+                        <p class="mb-3">Construire un avenir numérique ensemble, avec nos clients et partenaires.</p>
+                    </div>
+                </div>
+
+                <!-- Pourquoi nous choisir -->
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h3>Pourquoi nous choisir ?</h3>
+                </div>
+                <p class="mb-4">
+                    Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et 
+                    concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers 
+                    le succès dans un monde numérique.
+                </p>
+                <p class="mb-4">
+                    Avec <strong>Silina Tech</strong>, l’avenir commence aujourd’hui.
+                </p>
+
+                <!-- Contact -->
+                <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="1.0s">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="mb-2">Contactez-nous</h5>
+                        <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
+                    </div>
+                </div>
+                <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="1.2s">Plus sur nous</a>
+            </div>
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</div>
+<!-- About End -->
+
 
 
     <!-- Service Start -->
@@ -113,68 +171,97 @@
                 <h1 class="mb-0">Développement de logiciels médicaux sur mesure</h1>
             </div>
             <div class="row g-5">
+                <!-- Service 1 -->
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-hospital text-white"></i>
+                            <i class="fas fa-laptop-code text-white"></i>
                         </div>
-                        <h4 class="mb-3">Systèmes d’information hospitaliers (SIH)</h4>
-                        <p class="m-0">Déploiement et gestion de systèmes centralisés pour la gestion des dossiers médicaux électroniques (DME), l'administration des soins, la gestion des lits, des rendez-vous, etc.
-                            </p>
+                        <h4 class="mb-3">1. Développement de logiciels intelligents</h4>
+                        <p class="m-0">Des outils personnalisés et évolutifs pour répondre aux besoins spécifiques des entreprises, des institutions et des organisations modernes.</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
+                <!-- Service 2 -->
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-shield-alt text-white"></i>
+                            <i class="fas fa-network-wired text-white"></i>
                         </div>
-                        <h4 class="mb-3">Sécurité et conformité des données de santé</h4>
-                        <p class="m-0">Mise en place de solutions pour protéger les données sensibles de santé des patients, conformes aux réglementations locales et internationales (GDPR, HIPAA).</p>
+                        <h4 class="mb-3">2. Conseil en transformation numérique</h4>
+                        <p class="m-0">Des stratégies technologiques sur mesure pour optimiser vos processus et rester compétitif dans un monde en constante évolution.</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
+                <!-- Service 3 -->
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-microscope text-white"></i>
+                            <i class="fas fa-cloud text-white"></i>
                         </div>
-                        <h4 class="mb-3">Automatisation des laboratoires et analyses médicales</h4>
-                        <p class="m-0">Outils de gestion des analyses médicales, des réactifs, et de la traçabilité des échantillons</p>
+                        <h4 class="mb-3">3. Solutions cloud et connectivité</h4>
+                        <p class="m-0">Une infrastructure cloud fiable et des intégrations fluides pour une productivité accrue et des systèmes toujours connectés.</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
+                <!-- Service 4 -->
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-code text-white"></i>
+                            <i class="fas fa-mobile-alt text-white"></i>
                         </div>
-                        <h4 class="mb-3">Création intégration des API</h4>
-                        <p class="m-0">Développement d'API et leur Intégration afin d'interconnecter les équipements médicaux</p>
+                        <h4 class="mb-3">4. Applications web et mobiles de nouvelle génération</h4>
+                        <p class="m-0">Des plateformes performantes et intuitives pour améliorer l’expérience utilisateur et soutenir votre croissance numérique.</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
+                <!-- Service 5 -->
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fab fa-android text-white"></i>
+                            <i class="fas fa-lock text-white"></i>
                         </div>
-                        <h4 class="mb-3">Solutions mobiles</h4>
-                        <p class="m-0">Nous développons des applications mobiles pour permettre un accès facil aux solutions</p>
+                        <h4 class="mb-3">5. Cybersécurité avancée</h4>
+                        <p class="m-0">Protégez vos données et vos infrastructures avec des solutions de sécurité robustes et adaptées aux menaces émergentes.</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-
+                <!-- Service 6 -->
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-robot text-white"></i>
+                        </div>
+                        <h4 class="mb-3">6. Intelligence artificielle et automatisation</h4>
+                        <p class="m-0">Exploitez la puissance de l'IA pour prendre des décisions éclairées, automatiser vos processus et optimiser vos performances.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Service 7 -->
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fas fa-chalkboard-teacher text-white"></i>
+                        </div>
+                        <h4 class="mb-3">7. Support et formations technologiques</h4>
+                        <p class="m-0">Un accompagnement technique personnalisé et des formations pointues pour maîtriser pleinement vos outils numériques.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -257,13 +344,13 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('img/logo_wakiyou_mrs.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('img/logo_SILINA TECH_mrs.jpg')}}" alt="">
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
                             </div>
-                            <h4 class="mb-3">WakiyouMRS</h4>
-                            <p>WakiyouMRS est un système de dossiers médicaux électroniques (DME)</p>
+                            <h4 class="mb-3">SILINA TECHMRS</h4>
+                            <p>SILINA TECHMRS est un système de dossiers médicaux électroniques (DME)</p>
                             <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
