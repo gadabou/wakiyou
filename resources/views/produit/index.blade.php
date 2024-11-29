@@ -27,13 +27,13 @@
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('img/logo_wakiyou_mrs.jpg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('img/logo_silina_mrs-2.jpg')}}" alt="">
                         </div>
                         <div class="p-4">
                             <div class="d-flex mb-3">
                             </div>
-                            <h4 class="mb-3">WakiyouMRS</h4>
-                            <p>WakiyouMRS est un système de dossiers médicaux électroniques (DME)</p>
+                            <h4 class="mb-3">Silina TECHMRS</h4>
+                            <p>Silina TECHMRS est un système de dossiers médicaux électroniques (DME)</p>
                             <div class="row">
                                 <a class="text-uppercase" href="{{route('wakiyoumrs')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
                                 <a class="text-uppercase" href="{{route('wakiyoumrs_demo')}}">Voir démo <i class="bi bi-arrow-right"></i></a>

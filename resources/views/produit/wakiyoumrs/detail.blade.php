@@ -21,9 +21,9 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{asset('img/logo_wakiyou_mrs.jpg')}}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{asset('img/logo_silina_mrs-2.jpg')}}" alt="">
                         <h1 class="mb-4">Une solution pour la gestion des données médicales électroniques</h1>
-                        <p>WakiyouMRS, une solution basé sur OpenMRS (Open Medical Record System) est un système de dossiers médicaux électroniques (DME) open source conçu pour être utilisé dans les pays en développement. Voici un aperçu plus détaillé :</p>
+                        <p>Silina TECHMRS, une solution basé sur OpenMRS (Open Medical Record System) est un système de dossiers médicaux électroniques (DME) open source conçu pour être utilisé dans les pays en développement. Voici un aperçu plus détaillé :</p>
                         <ol>
                             <li> <strong>Objectif principal :</strong></li>
                             OpenMRS vise à améliorer la prestation des soins de santé dans les environnements à ressources limitées en fournissant une plateforme flexible pour la gestion des données des patients.

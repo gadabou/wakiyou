@@ -6,9 +6,9 @@
                 <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                     <a href="{{route('index')}}" class="navbar-brand">
                         <!--h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Startup</h1-->
-                        <img src="{{asset('img/logo.jpeg')}}" alt="Logo" class="me-2" style="height: 90px;">
+                        <img src="{{asset('img/logo_silina_tech.jpg')}}" alt="Logo" class="me-2" style="height: 90px;">
                     </a>
-                    <p class="mt-3 mb-4">Nous créons des solution modernes et évolutives</p>
+                    <p class="mt-3 mb-4">Nous créons des solutions modernes et évolutives</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -31,7 +31,7 @@
                 <!-- Recent Post Start -->
                 <div class="mb-5 wow slideInUp d-flex flex-column justify-content-start" data-wow-delay="0.1s">
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{asset('img/logo_wakiyou_mrs.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_mrs-2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="{{route('wakiyoumrs')}}" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
                         </a>
                     </div>
@@ -46,7 +46,7 @@
         <div class="row justify-content-end">
             <div class="col-lg-8 col-md-6">
                 <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="{{route('index')}}">WAKIYOU</a>. Tout droit réservé.
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="{{route('index')}}">SILINA TECH</a>. Tout droit réservé.
                 </div>
             </div>
         </div>
