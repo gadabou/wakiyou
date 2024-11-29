@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur2.jpg')}}" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -334,31 +334,70 @@
 
 
     <!-- Blog Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-uppercase">Nos solutions </h5>
-                <h1 class="mb-0">Nous sommes sur le marché mondial</h1>
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-uppercase">Nos solutions</h5>
+            <h1 class="mb-0">Nous sommes sur le marché mondial</h1>
+        </div>
+        <!-- Une seule ligne pour disposer les cartes horizontalement -->
+        <div class="row g-5">
+            <!-- Première carte -->
+            <div class="col-lg-3 col-md-6 wow slideInUp" data-wow-delay="0.3s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_mrs.jpg')}}" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="mb-3">SILINA TECHMRS</h4>
+                        <p>SILINA TECHMRS est un système de dossiers médicaux électroniques (DME)</p>
+                        <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{asset('img/logo_silina_mrs-2.jpg')}}" alt="">
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                            </div>
-                            <h4 class="mb-3">SILINA TECHMRS</h4>
-                            <p>SILINA TECHMRS est un système de dossiers médicaux électroniques (DME)</p>
-                            <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
-                        </div>
+            <!-- Deuxième carte -->
+            <div class="col-lg-3 col-md-6 wow slideInUp" data-wow-delay="0.4s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_erp.jpg')}}" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="mb-3">SILINA ERP</h4>
+                        <p>SILINA ERP est un système de gestion des ressources d'entreprise</p>
+                        <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Troisième carte -->
+            <div class="col-lg-3 col-md-6 wow slideInUp" data-wow-delay="0.5s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_pharma.jpg')}}" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="mb-3">SILINA PHARMA</h4>
+                        <p>SILINA PHARMA est un système de gestion pharmaceutique</p>
+                        <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Quatrième carte -->
+            <div class="col-lg-3 col-md-6 wow slideInUp" data-wow-delay="0.6s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="{{asset('img/Logo_Silina_Labo.jpg')}}" alt="">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="mb-3">SILINA LABO</h4>
+                        <p>SILINA LABO est un système pour les laboratoires</p>
+                        <a class="text-uppercase" href="{{route('produits')}}">Voir détail <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Blog Start -->
+</div>
+<!-- Blog End -->
 
 
     <!-- Vendor Start -->

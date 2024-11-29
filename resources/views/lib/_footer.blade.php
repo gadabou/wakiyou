@@ -31,7 +31,16 @@
                 <!-- Recent Post Start -->
                 <div class="mb-5 wow slideInUp d-flex flex-column justify-content-start" data-wow-delay="0.1s">
                     <div class="d-flex rounded overflow-hidden mb-3">
-                        <img class="img-fluid" src="{{asset('img/logo_silina_mrs-2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_mrs.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="{{route('wakiyoumrs')}}" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
+                        </a>
+                    </div>
+                </div>
+                <!-- Recent Post End -->
+                 <!-- Recent Post Start -->
+                <div class="mb-5 wow slideInUp d-flex flex-column justify-content-start" data-wow-delay="0.1s">
+                    <div class="d-flex rounded overflow-hidden mb-3">
+                        <img class="img-fluid" src="{{asset('img/logo_silina_erp.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
                         <a href="{{route('wakiyoumrs')}}" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
                         </a>
                     </div>

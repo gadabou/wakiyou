@@ -6,10 +6,10 @@
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                <h1 class="display-4 text-white animated zoomIn">Blog Grid</h1>
-                <a href="" class="h5 text-white">Home</a>
+                <h1 class="display-4 text-white animated zoomIn">Nos solutions</h1>
+                <a href="" class="h5 text-white">Accueil</a>
                 <i class="far fa-circle text-white px-2"></i>
-                <a href="" class="h5 text-white">Blog Grid</a>
+                <a href="" class="h5 text-white">Nos Produits</a>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
                 <div class="col-lg-8">
                     <!-- Blog Detail Start -->
                     <div class="mb-5">
-                        <img class="img-fluid w-100 rounded mb-5" src="{{asset('img/logo_silina_mrs-2.jpg')}}" alt="">
+                        <img class="img-fluid w-100 rounded mb-5" src="{{asset('img/logo_silina_mrs.jpg')}}" alt="">
                         <h1 class="mb-4">Une solution pour la gestion des données médicales électroniques</h1>
                         <p>Silina TECHMRS, une solution basé sur OpenMRS (Open Medical Record System) est un système de dossiers médicaux électroniques (DME) open source conçu pour être utilisé dans les pays en développement. Voici un aperçu plus détaillé :</p>
                         <ol>
@@ -81,18 +81,18 @@
                             <h3 class="mb-0">Récents activités</h3>
                         </div>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/blog1.jpeg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Le Ministre de la Communication, des Postes et de L'Economie...
+                            <img class="img-fluid" src="{{asset('img/logo_silina_erp.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">2. Silina ERP – Logiciel de gestion d’entreprise ...
                             </a>
                         </div>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Séance de formation à l'usage de l'IA
+                            <img class="img-fluid" src="{{asset('img/logo_silina_pharma.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">3. Silina Pharma – Logiciel de gestion de pharmacie ...
                             </a>
                         </div>
                         <div class="d-flex rounded overflow-hidden mb-3">
-                            <img class="img-fluid" src="{{asset('img/forum.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Assemblée générale du Club des DSI Niger
+                            <img class="img-fluid" src="{{asset('img/Logo_Silina_Labo.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                            <a href="" class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">4. Silina Labo – Logiciel de gestion de laboratoire ...
                             </a>
                         </div>
 
