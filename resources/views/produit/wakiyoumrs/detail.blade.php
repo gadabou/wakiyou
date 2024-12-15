@@ -110,4 +110,5 @@
             </div>
         </div>
     </div>
-    <!-- Blog End -->@endsection
+    <!-- Blog End -->
+@endsection

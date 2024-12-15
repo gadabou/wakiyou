@@ -12,8 +12,8 @@
             <a href="{{route('apropos')}}" class="nav-item nav-link {{ Route::is('apropos') ? 'active' : '' }}">Qui sommes-nous ?</a>
             <a href="{{route('produits')}}" class="nav-item nav-link {{ Route::is('produits') ? 'active' : '' }}">Nos Produits</a>
             <a href="{{route('status')}}" class="nav-item nav-link {{ Route::is('status') ? 'active' : '' }}">Notre vision</a>
-            <a href="{{route('reglement')}}" class="nav-item nav-link {{ Route::is('reglement') ? 'active' : '' }}">Passez à l'action</a>
-            <!--<a href="{{route('articles.index')}}" class="nav-item nav-link {{ Route::is('articles.index') ? 'active' : '' }}" >Actualités</a> -->
+            <!--<a href="{{route('reglement')}}" class="nav-item nav-link {{ Route::is('reglement') ? 'active' : '' }}">Passez à l'action</a>
+            <a href="{{route('articles.index')}}" class="nav-item nav-link {{ Route::is('articles.index') ? 'active' : '' }}" >Actualités</a> -->
             <a href="{{route('contact')}}" class="nav-item nav-link {{ Route::is('contact') ? 'active' : '' }}">Contact</a>
 
         </div>

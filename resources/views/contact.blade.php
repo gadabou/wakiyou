@@ -50,7 +50,8 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Telephone</h5>
-                            <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
+                            <h4 class="text-primary mb-0">+226 56 62 91 52</h4>
+                            <h4 class="text-primary mb-0">+228 92 66 51 31</h4>
                         </div>
                     </div>
                 </div>
@@ -61,7 +62,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Laissez-nous un couriel</h5>
-                            <h4 class="text-primary mb-0">info@wakiyou.org</h4>
+                            <h4 class="text-primary mb-0">tsilina@techsilina.org</h4>
                         </div>
                     </div>
                 </div>
