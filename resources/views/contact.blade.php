@@ -73,7 +73,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Vous pouvez visiter notre Agence</h5>
-                            <h4 class="text-primary mb-0">AVE Kadiogo, Juste non loin de BOA <br/> Ouagadougou, Burkina Faso</h4>
+                            <h4 class="text-primary mb-0">01 bp 3615, Gounghin <br/> Ouagadougou, Burkina Faso</h4>
                         </div>
                     </div>
                 </div>

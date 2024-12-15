@@ -184,7 +184,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/Dr. OUEGRAOGO Mahamou.jpg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/team-2.jpg')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -193,7 +193,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">Dr. OUEGRAOGO Mahamou</h4>
+                            <h4 class=""style="color: #E05206">Col. X</h4>
                             <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
                         </div>
                     </div>
@@ -210,43 +210,7 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">M. GADO Djakpo</h4>
-                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/daf.jpeg')}}" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">SAWADOGO Abdoul Salam</h4>
-                            <p class="text-uppercase m-0">Directeur Administratif Financier</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/part.jpeg')}}" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">SIMPORE Abdoul Aziz</h4>
+                            <h4 class=""style="color: #E05206">GADO Djakpo</h4>
                             <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
                         </div>
                     </div>
