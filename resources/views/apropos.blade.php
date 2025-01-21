@@ -34,50 +34,6 @@
     <!-- Full Screen Search End -->
 
     <!-- About Start -->
-    <!--div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Qui sommes-nous ?</h5>
-                        <h1 class="mb-0">WAKIYOU</h1>
-                        <h3>Healthcare & technology</h3>
-                    </div>
-                    <p class="mb-4">Wakiyou est une entreprise spécialisée dans le domaine de l'informatique médicale, apportant des solutions innovantes pour améliorer la gestion des données de santé et les flux de travail dans les établissements de soins. L'entreprise se concentre sur la création d'applications logicielles et de systèmes intégrés destinés aux hôpitaux, cliniques, laboratoires et pharmacies, avec pour objectif de simplifier les processus de gestion des patients, des prescriptions, des analyses médicales et des interactions avec les compagnies d'assurance.</p>
-                    <p class="mb-4">En utilisant des technologies modernes, Wakiyou développe des outils qui optimisent la gestion des prescriptions médicales, la gestion des stocks pharmaceutiques, ainsi que l'automatisation des analyses médicales. L'entreprise met également un fort accent sur la protection des données de santé grâce à des systèmes de sécurité renforcés, assurant la confidentialité des informations des patients.</p>
-                    <p class="mb-4">Wakiyou est ainsi positionnée comme un partenaire de choix pour les professionnels de santé cherchant à adopter des solutions technologiques de pointe, permettant une meilleure coordination des soins et une amélioration globale de l'efficacité des opérations dans le secteur médical.</p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Votre sécurité, notre prioritée</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professionnalisme</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Burkina Faso, Ouagadougou </h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Koulouba</h5>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h5 class="mb-2">Contactez-nous</h5>
-                            <h4 class="text-primary mb-0">+226 79 02 02 02</h4>
-                        </div>
-                    </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Plus sur nous</a>
-                </div>
-                <div class="col-lg-5" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('img/docteur.jpg')}}" style="object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div!-->
-    <!-- About End -->
-
-    <!-- About Start -->
     <div class="container-fluid py-5 about wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -88,13 +44,13 @@
                         <h3>Repousser les frontières de l'innovation</h3>
                     </div>
                     <p class="mb-4">
-                        Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques. 
-                        Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux 
+                        Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques.
+                        Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux
                         besoins d’un monde en constante évolution.
                     </p>
                     <p class="mb-4">
-                        Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur 
-                        fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité, 
+                        Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur
+                        fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité,
                         technologie et stratégie pour créer des solutions intelligentes et durables.
                     </p>
 
@@ -126,8 +82,8 @@
                         <h3>Pourquoi nous choisir ?</h3>
                     </div>
                     <p class="mb-4">
-                        Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et 
-                        concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers 
+                        Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et
+                        concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers
                         le succès dans un monde numérique.
                     </p>
                     <p class="mb-4">
@@ -177,7 +133,25 @@
                         </div>
                         <div class="text-center py-4">
                             <h4 class="" style="color: #E05206">Dr. SALIFOU Waliyou</h4>
-                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
+                            <p class="text-uppercase m-0">Docteur en médécine spécialisé en informatique médicale et Directeur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/gado2.jpg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">M. GADO Djakpo</h4>
+                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
                         </div>
                     </div>
                 </div>
@@ -193,15 +167,16 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">Col. X</h4>
-                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
+
+                            <h4 class=""style="color: #E05206">OUEGRAOGO Sarata</h4>
+                            <p class="text-uppercase m-0">Responsable des ressources humaines</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/gado2.jpg')}}" alt="">
+                            <img class="img-fluid w-100" src="{{asset('img/team-6.webp')}}" alt="">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -210,8 +185,99 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">GADO Djakpo</h4>
-                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
+                            <h4 class=""style="color: #E05206">CARPANTIER Isabelle </h4>
+                            <p class="text-uppercase m-0">Ingénieur en cybersécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/daf.jpeg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">SAWADOGO Abdoul Salam</h4>
+                            <p class="text-uppercase m-0">Directeur Administratif Financier</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/part.jpeg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">SIMPORE Abdoul Aziz</h4>
+                            <p class="text-uppercase m-0">Comptable</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/baki.jpeg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">M. TCHASSEI Abdoul Baki</h4>
+                            <p class="text-uppercase m-0">Développeur d'applications full stack</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/emanuel.jpg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">SEHOU Emmanuel Gaspard Koami</h4>
+                            <p class="text-uppercase m-0">Développeur d'applications mobiles</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/agbere.jpeg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">AGBERE Hafissou</h4>
+                            <p class="text-uppercase m-0">Développeur d'application en front-end</p>
+
                         </div>
                     </div>
                 </div>
