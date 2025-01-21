@@ -12,12 +12,12 @@
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">SILINA TECH</h1>
                     <h3 class="display-4 text-white mb-md-4 animated zoomIn">Façonnons le Monde Numérique de Demain</h3>
                     <p class="text-white mb-3 animated fadeIn">
-                        <strong>Bienvenue chez Silina Tech, où innovation et technologie redéfinissent les standards. 
-                        Notre expertise repose sur la création de solutions intelligentes qui accompagnent 
+                        <strong>Bienvenue chez Silina Tech, où innovation et technologie redéfinissent les standards.
+                        Notre expertise repose sur la création de solutions intelligentes qui accompagnent
                         les entreprises et institutions à chaque étape de leur transformation numérique.</strong>
                     </p>
                     <p class="text-white animated fadeIn">
-                        <strong>Ensemble, nous imaginons et construisons un futur connecté, où l'efficacité, la sécurité 
+                        <strong>Ensemble, nous imaginons et construisons un futur connecté, où l'efficacité, la sécurité
                         et la simplicité s'unissent pour répondre aux défis d’un monde en constante évolution.</strong>
                     </p>
                     <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Nous soutenir</a>
@@ -34,12 +34,12 @@
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">SILINA TECH</h1>
                     <h3 class="display-4 text-white mb-md-4 animated zoomIn">Shaping Tomorrow’s Digital World</h3>
                     <p class="text-white mb-3 animated fadeIn">
-                        <strong>Welcome to Silina Tech, where innovation and technology redefine global standards. 
-                        Our expertise lies in creating intelligent solutions that support businesses and 
+                        <strong>Welcome to Silina Tech, where innovation and technology redefine global standards.
+                        Our expertise lies in creating intelligent solutions that support businesses and
                         institutions at every stage of their digital transformation.</strong>
                     </p>
                     <p class="text-white animated fadeIn">
-                        <strong>Together, we imagine and build a connected future where efficiency, security, and simplicity 
+                        <strong>Together, we imagine and build a connected future where efficiency, security, and simplicity
                         converge to meet the challenges of an ever-evolving world.</strong>
                     </p>
                     <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Inscrivez-vous</a>
@@ -93,13 +93,13 @@
                         <h3>Repousser les frontières de l'innovation</h3>
                     </div>
                     <p class="mb-4">
-                        Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques. 
-                        Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux 
+                        Chez <strong>Silina Tech</strong>, nous repoussons les frontières de l’innovation pour transformer les idées en réalités numériques.
+                        Fondée avec une vision audacieuse, notre entreprise se consacre à offrir des solutions technologiques de pointe qui s’adaptent aux
                         besoins d’un monde en constante évolution.
                     </p>
                     <p class="mb-4">
-                        Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur 
-                        fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité, 
+                        Notre mission est simple mais ambitieuse : accompagner les entreprises et institutions dans leur transformation numérique en leur
+                        fournissant des outils innovants, sécurisés et performants. Grâce à une expertise multidisciplinaire, nous unissons créativité,
                         technologie et stratégie pour créer des solutions intelligentes et durables.
                     </p>
 
@@ -131,8 +131,8 @@
                         <h3>Pourquoi nous choisir ?</h3>
                     </div>
                     <p class="mb-4">
-                        Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et 
-                        concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers 
+                        Parce que nous croyons que chaque projet mérite une approche unique, nous travaillons main dans la main avec nos clients pour comprendre leurs défis et
+                        concevoir des solutions sur mesure. Que vous soyez une petite entreprise ou une institution de grande envergure, Silina Tech est là pour vous guider vers
                         le succès dans un monde numérique.
                     </p>
                     <p class="mb-4">
@@ -289,7 +289,25 @@
                         </div>
                         <div class="text-center py-4">
                             <h4 class="" style="color: #E05206">Dr. SALIFOU Waliyou</h4>
-                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
+                            <p class="text-uppercase m-0">Docteur en médécine spécialisé en informatique médicale et Directeur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{asset('img/gado2.jpg')}}" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h4 class=""style="color: #E05206">M. GADO Djakpo</h4>
+                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
                         </div>
                     </div>
                 </div>
@@ -305,25 +323,8 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">Dr. OUEGRAOGO Mahamou</h4>
-                            <p class="text-uppercase m-0">Docteur en médécine et ingénieur en informatique médicale</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{asset('img/gado2.jpg')}}" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class=""style="color: #E05206">M. GADO Djakpo</h4>
-                            <p class="text-uppercase m-0">Ingénieur génie logiciel</p>
+                            <h4 class=""style="color: #E05206">OUEGRAOGO Sarata</h4>
+                            <p class="text-uppercase m-0">Responsable des ressources humaines</p>
                         </div>
                     </div>
                 </div>
